@@ -3,12 +3,12 @@ layout: page
 title: About
 ---
 
-Some information about you!
+Computer engineering student
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+Someday i will finish and get my laurea degree
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+micheleee AT gmail DOT com
