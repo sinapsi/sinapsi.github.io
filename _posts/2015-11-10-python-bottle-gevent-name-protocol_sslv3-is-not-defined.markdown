@@ -9,18 +9,14 @@ wordpress_id: 749
 ---
 
 Avevo un piccolo progetto python che usava [bottle](http://bottlepy.org/docs/dev/index.html) e [gevent](http://www.gevent.org/), oggi l'ho ripreso in mano, ho provato ad eseguirlo e ho ottenuto l'errore:
-
-```
+{% highlight bash %}
 name 'PROTOCOL_SSLv3' is not defined
-```
-
+{% endhighlight %}
 MA IO NON USO SSL DA NESSUNA PARTE!
 Colpa dell'aggiornamento a debian Jessie?
 Dopo una ricerca su google ho trovato 2 comandi magici da dare:
-
-```
+{% highlight bash %}
 pip uninstall gevent
 apt-get install python-gevent
-```
-
+{% endhighlight %}
 ok, funziona di nuovo, fiuuuu
